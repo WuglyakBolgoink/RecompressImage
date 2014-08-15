@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
- 
-<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-           id="de.cyberkatze.phonegap.plugin.recompressimage"
-      version="1.0.0">
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="de.cyberkatze.phonegap.plugin.recompressimage" version="1.0.0">
     <name>RecompressImage</name>
     <description>PhoneGap + NDK Android Plugin - compress Image with compression level and change image rotation to top with EXIF-value</description>
     <license>MIT</license>
-    <keywords>phonegap,image,resize,ndk,rotate,compress,compression,picture</keywords>
+    <keywords>phonegap,image,resize,ndk,rotate,compress,compression,picture</keywords> 
  
- 
-    <js-module src="www/recompressImage.js" name="recompressImage">
+    <js-module src="www/recompressImage.js" name="RecompressImage">
         <clobbers target="window.recompressImage" />
     </js-module>
  
@@ -21,6 +17,6 @@
             </feature>
         </config-file>
  
-        <source-file src="src/android/RecompressImage.java" target-dir="src/de/cyberkatze/phonegap/plugin/recompressimage" />      
-     </platform>          
+        <source-file src="src/android/RecompressImage.java" target-dir="src/de/cyberkatze/phonegap/plugin/recompressimage" />     
+     </platform>         
 </plugin>
