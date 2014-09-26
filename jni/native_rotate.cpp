@@ -11,7 +11,7 @@
 #define  LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG,LOG_TAG,__VA_ARGS__)
 
 extern "C" {
-	JNIEXPORT jobject JNICALL Java_de_cyberkatze_phonegap_plugin_recompressimage_rotateBitmap(JNIEnv * env, jobject obj, jobject bitmap, jint rotation)
+	JNIEXPORT jobject JNICALL Java_de_cyberkatze_phonegap_plugin_recompressimage_RecompressImage_rotateBitmap(JNIEnv * env, jobject obj, jobject bitmap, jint rotation)
 	{
 		 //
 		  //getting bitmap info:
